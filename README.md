@@ -10,10 +10,6 @@ A foray into the world of webrtc
 
 4. Obtain the credentials for firbase under project settings > SDK Setup and configuration > Config
 
-5. Add the configuration to main.js
-```js
-import firebase from 'firebase/app'
-import 'firebase/firestore'
+5. Add the boilerplate code to main.js
 
-
-```
+6. Remember to create the collection answerCandidates, calls, and offerCandidates on firebase or else the code will not work
