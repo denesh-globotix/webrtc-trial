@@ -13,3 +13,9 @@ A foray into the world of webrtc
 5. Add the boilerplate code to main.js
 
 6. Remember to create the collection answerCandidates, calls, and offerCandidates on firebase or else the code will not work
+
+7. Deploy app using 
+```sh
+firebase init hosting
+firebase deploy --only hosting
+```
